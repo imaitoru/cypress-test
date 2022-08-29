@@ -4,5 +4,7 @@ describe('test_churadata_hp', function() {
      // churadataのHPにアクセス
      cy.visit('https://www.google.co.jp/');
 
+     cy.wait(3000);
+
     })
 })
